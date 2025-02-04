@@ -1,0 +1,118 @@
+.valentine-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+  }
+
+  button {
+    position: absolute;
+    transition: 0.5s transform;
+    cursor: pointer;
+  
+    font-family: "courier", system-ui, Arial, serif;
+    font-weight: bold; 
+    font-size: 100%;
+    padding: 8px 16px; 
+    border-radius: 8px; 
+    
+  }
+  
+  .yes-button {
+    background-color: #89caae;
+    color: #fff; 
+    border: 2px solid #87c0b5;
+    margin-left: -70px;
+  }
+  
+  .yes-button:hover {
+    background-color: #61bb97;
+  }
+  
+  .no-button {
+    background-color: #e57a81; 
+    color: #fff; 
+    border: 2px solid #d67279;
+    margin-left: 20px;
+  }
+  
+  .no-button:hover {
+    background-color: #d64b54;
+  }
+  
+  .more-button {
+    background-color: #89caae;
+    color: #fff; 
+    border: 2px solid #87c0b5;
+    margin-left: 10px;
+    
+  }
+
+  .puzzle-button {
+    background-color: #89caae;
+    color: #fff; 
+    border: 2px solid #87c0b5;
+    margin-left: -200px;
+  }
+  
+  
+  .text-container {
+    font-size: 2.25rem;
+    margin-top: 1rem; 
+    margin-bottom: 1rem;
+  }
+  
+  .centered-container {
+    display: flex;
+    font-size: large;
+    font-family: "courier", system-ui, Arial, serif;
+    flex-direction: column;
+    align-items: right;
+    justify-content: right;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .github-link {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: #007bff; 
+    text-decoration: none;
+  }
+  
+  /*scroll bar below*/
+  *::-webkit-scrollbar {
+    height: 10px;
+    width: 10px;
+  }
+  *::-webkit-scrollbar-track {
+    border-radius: 5px;
+    background-color: #DCE7E1;
+    border: 6px double #FFFFFF;
+  }
+  
+  *::-webkit-scrollbar-track:hover {
+    background-color: #FCC5DF;
+  }
+  
+  *::-webkit-scrollbar-track:active {
+    background-color: #FCC5DF;
+  }
+  
+  *::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background-color: #CF3E6E;
+    border: 2px double #FFFFFF;
+  }
+  
+  *::-webkit-scrollbar-thumb:hover {
+    background-color: #FC4985;
+  }
+  
+  *::-webkit-scrollbar-thumb:active {
+    background-color: #FC4985;
+  }
+  /*scroll bar ends*/
+  
